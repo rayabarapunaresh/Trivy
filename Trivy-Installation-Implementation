@@ -25,4 +25,4 @@ trivy repo repo-url
 
 trivy k8s --report summary cluster
 
-trivy repo format -o report.jshon gitrepourl 
+trivy repo --format -o report.jshon https://github.com/rayabarapunaresh/spring-cloud-kubernetes.git
